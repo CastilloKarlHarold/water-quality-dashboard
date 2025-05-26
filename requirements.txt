@@ -7,4 +7,6 @@ seaborn
 plotly
 Pillow
 statsmodels
+scikit-learn
+
 
