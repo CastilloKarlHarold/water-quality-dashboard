@@ -120,7 +120,7 @@ if active_tab == "home":
             return base64.b64encode(f.read()).decode()
 
     with st.container():
-        video_file_path = "/Users/haroldcastillo/Documents/streamlit/background.mp4"
+        video_file_path = "streamlit/background.mp4"
         if os.path.exists(video_file_path):
             video_base64 = get_video_base64(video_file_path)
 
